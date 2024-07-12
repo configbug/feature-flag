@@ -5,10 +5,6 @@ jobs:
   check-bats-version:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-      - run: npm install -g bats
-      - run: bats -v
-      - run: echo "::workflow-command parameter1={data},parameter2={data}::{command value}"
+      - name: Create annotation for build error
+        run: echo "::error file=app.js,line=1::Missing semicolon"
+
