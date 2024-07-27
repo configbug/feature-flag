@@ -8,6 +8,6 @@ jobs:
       - name: Create annotation for build error
         run: echo "::error file=app.js,line=1::Missing semicolon"
       - name: Creacion de debug message
-        run: echo "::debug::Set the Octocat variable"
+        run: echo "::debug::Set the Octocat variable persionalizado"
 
 
