@@ -21,3 +21,5 @@ reported vulnerability, what to expect if the vulnerability is accepted or
 declined, etc.
 
 ## Politics de Seguridad: Revisiones de codigo obligatorio
+
+Dale esto es un aviso de comunicación!
